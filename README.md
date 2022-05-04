@@ -11,5 +11,5 @@ python3 -m iis.labX.problemY
 Pipe to out file:
 
 ```console
-python3 -m iis.labX.problemY > problemY.out
+python3 -m iis.labX.problemY > iis/labX/problemY.out
 ```
