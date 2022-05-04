@@ -1,0 +1,47 @@
+2022-04-01 23:13:21.502227: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-01 23:13:21.901604: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1318 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1050, pci bus id: 0000:26:00.0, compute capability: 6.1
+Epoch 1/20
+44/44 - 3s - loss: 1.1410 - accuracy: 0.5914 - val_loss: 0.5421 - val_accuracy: 0.8524 - 3s/epoch - 69ms/step
+Epoch 2/20
+44/44 - 1s - loss: 0.4573 - accuracy: 0.8620 - val_loss: 0.4543 - val_accuracy: 0.8745 - 1s/epoch - 33ms/step
+Epoch 3/20
+44/44 - 1s - loss: 0.3463 - accuracy: 0.8966 - val_loss: 0.4783 - val_accuracy: 0.8930 - 1s/epoch - 32ms/step
+Epoch 4/20
+44/44 - 1s - loss: 0.2941 - accuracy: 0.9040 - val_loss: 0.4983 - val_accuracy: 0.8672 - 1s/epoch - 32ms/step
+Epoch 5/20
+44/44 - 1s - loss: 0.2375 - accuracy: 0.9275 - val_loss: 0.5758 - val_accuracy: 0.8561 - 1s/epoch - 32ms/step
+Epoch 6/20
+44/44 - 1s - loss: 0.2436 - accuracy: 0.9192 - val_loss: 0.5399 - val_accuracy: 0.8745 - 1s/epoch - 31ms/step
+Epoch 7/20
+44/44 - 1s - loss: 0.2239 - accuracy: 0.9271 - val_loss: 0.4989 - val_accuracy: 0.8487 - 1s/epoch - 31ms/step
+Epoch 8/20
+44/44 - 1s - loss: 0.2139 - accuracy: 0.9289 - val_loss: 0.4664 - val_accuracy: 0.8819 - 1s/epoch - 31ms/step
+Epoch 9/20
+44/44 - 1s - loss: 0.2011 - accuracy: 0.9321 - val_loss: 0.5760 - val_accuracy: 0.8524 - 1s/epoch - 32ms/step
+Epoch 10/20
+44/44 - 1s - loss: 0.1892 - accuracy: 0.9358 - val_loss: 0.5634 - val_accuracy: 0.8635 - 1s/epoch - 31ms/step
+Epoch 11/20
+44/44 - 1s - loss: 0.1861 - accuracy: 0.9391 - val_loss: 0.5014 - val_accuracy: 0.8745 - 1s/epoch - 32ms/step
+Epoch 12/20
+44/44 - 1s - loss: 0.1802 - accuracy: 0.9414 - val_loss: 0.6566 - val_accuracy: 0.8524 - 1s/epoch - 31ms/step
+Epoch 13/20
+44/44 - 1s - loss: 0.1618 - accuracy: 0.9455 - val_loss: 0.6964 - val_accuracy: 0.8524 - 1s/epoch - 30ms/step
+Epoch 14/20
+44/44 - 1s - loss: 0.1578 - accuracy: 0.9464 - val_loss: 0.6517 - val_accuracy: 0.8450 - 1s/epoch - 32ms/step
+Epoch 15/20
+44/44 - 1s - loss: 0.1411 - accuracy: 0.9538 - val_loss: 0.6159 - val_accuracy: 0.8487 - 1s/epoch - 31ms/step
+Epoch 16/20
+44/44 - 1s - loss: 0.1301 - accuracy: 0.9529 - val_loss: 0.6667 - val_accuracy: 0.8413 - 1s/epoch - 31ms/step
+Epoch 17/20
+44/44 - 1s - loss: 0.1573 - accuracy: 0.9460 - val_loss: 0.6681 - val_accuracy: 0.8487 - 1s/epoch - 31ms/step
+Epoch 18/20
+44/44 - 1s - loss: 0.1478 - accuracy: 0.9529 - val_loss: 0.6575 - val_accuracy: 0.8598 - 1s/epoch - 31ms/step
+Epoch 19/20
+44/44 - 1s - loss: 0.1274 - accuracy: 0.9538 - val_loss: 0.6571 - val_accuracy: 0.8524 - 1s/epoch - 31ms/step
+Epoch 20/20
+44/44 - 1s - loss: 0.1465 - accuracy: 0.9474 - val_loss: 0.6584 - val_accuracy: 0.8487 - 1s/epoch - 31ms/step
+6/6 [==============================] - 0s 22ms/step - loss: 0.7647 - accuracy: 0.8339
+        Accuracy score: 0.16974169741697417
+        F1-micro: 0.16974169741697417
+        F1-macro: 0.14652940963379754

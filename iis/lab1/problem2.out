@@ -1,0 +1,110 @@
+2022-04-01 02:08:14.763417: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-01 02:08:15.206520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1318 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1050, pci bus id: 0000:26:00.0, compute capability: 6.1
+C:\Users\martinkozle\anaconda3\envs\py38_ml\lib\site-packages\keras\optimizer_v2\gradient_descent.py:102: UserWarning: The `lr` argument is deprecated, use `learning_rate` instead.
+  super(SGD, self).__init__(name, **kwargs)
+G:\Workspace\Python\iis-course\gem\embedding\sdne.py:150: UserWarning: `Model.fit_generator` is deprecated and will be removed in a future version. Please use `Model.fit`, which supports generators.
+  self._model.fit_generator(
+Epoch 1/50
+21/21 [==============================] - 3s 47ms/step - loss: 48.4612 - subtract_loss: 24.1978 - subtract_1_loss: 24.2055 - subtract_2_loss: 0.0431
+Epoch 2/50
+21/21 [==============================] - 1s 49ms/step - loss: 47.3703 - subtract_loss: 23.6732 - subtract_1_loss: 23.6790 - subtract_2_loss: 0.0033
+Epoch 3/50
+21/21 [==============================] - 1s 51ms/step - loss: 47.1337 - subtract_loss: 23.5644 - subtract_1_loss: 23.5531 - subtract_2_loss: 0.0015
+Epoch 4/50
+21/21 [==============================] - 1s 50ms/step - loss: 46.8811 - subtract_loss: 23.4327 - subtract_1_loss: 23.4325 - subtract_2_loss: 0.0011
+Epoch 5/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.7465 - subtract_loss: 23.3655 - subtract_1_loss: 23.3655 - subtract_2_loss: 5.4235e-04
+Epoch 6/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.6724 - subtract_loss: 23.3268 - subtract_1_loss: 23.3303 - subtract_2_loss: 2.5696e-04
+Epoch 7/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.6172 - subtract_loss: 23.2984 - subtract_1_loss: 23.3036 - subtract_2_loss: 1.6631e-04
+Epoch 8/50
+21/21 [==============================] - 1s 51ms/step - loss: 46.6072 - subtract_loss: 23.2963 - subtract_1_loss: 23.2957 - subtract_2_loss: 1.2518e-04
+Epoch 9/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.5958 - subtract_loss: 23.2892 - subtract_1_loss: 23.2913 - subtract_2_loss: 9.2497e-05
+Epoch 10/50
+21/21 [==============================] - 1s 55ms/step - loss: 46.5897 - subtract_loss: 23.2852 - subtract_1_loss: 23.2893 - subtract_2_loss: 7.8590e-05
+Epoch 11/50
+21/21 [==============================] - 1s 50ms/step - loss: 46.5810 - subtract_loss: 23.2815 - subtract_1_loss: 23.2841 - subtract_2_loss: 6.3522e-05
+Epoch 12/50
+21/21 [==============================] - 1s 50ms/step - loss: 46.5756 - subtract_loss: 23.2784 - subtract_1_loss: 23.2820 - subtract_2_loss: 5.1141e-05
+Epoch 13/50
+21/21 [==============================] - 1s 50ms/step - loss: 46.5786 - subtract_loss: 23.2848 - subtract_1_loss: 23.2785 - subtract_2_loss: 3.7879e-05
+Epoch 14/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5693 - subtract_loss: 23.2777 - subtract_1_loss: 23.2764 - subtract_2_loss: 3.1977e-05
+Epoch 15/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5826 - subtract_loss: 23.2829 - subtract_1_loss: 23.2845 - subtract_2_loss: 2.6274e-05
+Epoch 16/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5701 - subtract_loss: 23.2773 - subtract_1_loss: 23.2775 - subtract_2_loss: 2.1104e-05
+Epoch 17/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.5787 - subtract_loss: 23.2826 - subtract_1_loss: 23.2808 - subtract_2_loss: 1.6758e-05
+Epoch 18/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.5714 - subtract_loss: 23.2778 - subtract_1_loss: 23.2782 - subtract_2_loss: 1.3987e-05
+Epoch 19/50
+21/21 [==============================] - 1s 50ms/step - loss: 46.5655 - subtract_loss: 23.2745 - subtract_1_loss: 23.2757 - subtract_2_loss: 1.2205e-05
+Epoch 20/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5658 - subtract_loss: 23.2756 - subtract_1_loss: 23.2750 - subtract_2_loss: 1.0365e-05
+Epoch 21/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5770 - subtract_loss: 23.2813 - subtract_1_loss: 23.2805 - subtract_2_loss: 8.4582e-06
+Epoch 22/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5696 - subtract_loss: 23.2783 - subtract_1_loss: 23.2760 - subtract_2_loss: 7.2358e-06
+Epoch 23/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5871 - subtract_loss: 23.2864 - subtract_1_loss: 23.2854 - subtract_2_loss: 6.3063e-06
+Epoch 24/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5897 - subtract_loss: 23.2871 - subtract_1_loss: 23.2874 - subtract_2_loss: 5.3145e-06
+Epoch 25/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.5927 - subtract_loss: 23.2870 - subtract_1_loss: 23.2905 - subtract_2_loss: 4.4158e-06
+Epoch 26/50
+21/21 [==============================] - 1s 47ms/step - loss: 46.6024 - subtract_loss: 23.2953 - subtract_1_loss: 23.2918 - subtract_2_loss: 3.6767e-06
+Epoch 27/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5935 - subtract_loss: 23.2897 - subtract_1_loss: 23.2886 - subtract_2_loss: 3.1768e-06
+Epoch 28/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5927 - subtract_loss: 23.2899 - subtract_1_loss: 23.2875 - subtract_2_loss: 2.7728e-06
+Epoch 29/50
+21/21 [==============================] - 1s 47ms/step - loss: 46.5912 - subtract_loss: 23.2877 - subtract_1_loss: 23.2882 - subtract_2_loss: 2.3743e-06
+Epoch 30/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5791 - subtract_loss: 23.2799 - subtract_1_loss: 23.2841 - subtract_2_loss: 2.0222e-06
+Epoch 31/50
+21/21 [==============================] - 1s 47ms/step - loss: 46.5779 - subtract_loss: 23.2820 - subtract_1_loss: 23.2807 - subtract_2_loss: 1.7727e-06
+Epoch 32/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.5830 - subtract_loss: 23.2820 - subtract_1_loss: 23.2859 - subtract_2_loss: 1.5792e-06
+Epoch 33/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5830 - subtract_loss: 23.2838 - subtract_1_loss: 23.2841 - subtract_2_loss: 1.3902e-06
+Epoch 34/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5814 - subtract_loss: 23.2816 - subtract_1_loss: 23.2847 - subtract_2_loss: 1.2197e-06
+Epoch 35/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5877 - subtract_loss: 23.2857 - subtract_1_loss: 23.2869 - subtract_2_loss: 1.0926e-06
+Epoch 36/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.5774 - subtract_loss: 23.2780 - subtract_1_loss: 23.2843 - subtract_2_loss: 9.9377e-07
+Epoch 37/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5863 - subtract_loss: 23.2857 - subtract_1_loss: 23.2855 - subtract_2_loss: 9.0169e-07
+Epoch 38/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.5916 - subtract_loss: 23.2876 - subtract_1_loss: 23.2890 - subtract_2_loss: 8.1356e-07
+Epoch 39/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.5837 - subtract_loss: 23.2822 - subtract_1_loss: 23.2864 - subtract_2_loss: 7.4456e-07
+Epoch 40/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.5951 - subtract_loss: 23.2894 - subtract_1_loss: 23.2906 - subtract_2_loss: 6.8527e-07
+Epoch 41/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.5962 - subtract_loss: 23.2894 - subtract_1_loss: 23.2918 - subtract_2_loss: 6.3187e-07
+Epoch 42/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5883 - subtract_loss: 23.2861 - subtract_1_loss: 23.2872 - subtract_2_loss: 5.8201e-07
+Epoch 43/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5954 - subtract_loss: 23.2910 - subtract_1_loss: 23.2895 - subtract_2_loss: 5.3791e-07
+Epoch 44/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5983 - subtract_loss: 23.2917 - subtract_1_loss: 23.2916 - subtract_2_loss: 4.9942e-07
+Epoch 45/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.6053 - subtract_loss: 23.2994 - subtract_1_loss: 23.2909 - subtract_2_loss: 4.6209e-07
+Epoch 46/50
+21/21 [==============================] - 1s 47ms/step - loss: 46.6016 - subtract_loss: 23.2952 - subtract_1_loss: 23.2915 - subtract_2_loss: 4.3136e-07
+Epoch 47/50
+21/21 [==============================] - 1s 47ms/step - loss: 46.5932 - subtract_loss: 23.2905 - subtract_1_loss: 23.2877 - subtract_2_loss: 4.0332e-07
+Epoch 48/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5959 - subtract_loss: 23.2920 - subtract_1_loss: 23.2890 - subtract_2_loss: 3.7764e-07
+Epoch 49/50
+21/21 [==============================] - 1s 49ms/step - loss: 46.5969 - subtract_loss: 23.2911 - subtract_1_loss: 23.2909 - subtract_2_loss: 3.5358e-07
+Epoch 50/50
+21/21 [==============================] - 1s 48ms/step - loss: 46.5878 - subtract_loss: 23.2836 - subtract_1_loss: 23.2893 - subtract_2_loss: 3.3068e-07
+        Accuracy score: 0.2029520295202952
+        F1-micro: 0.2029520295202952
+        F1-macro: 0.15163392016192476
