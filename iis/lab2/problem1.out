@@ -1,0 +1,5 @@
+Graph with 4039 nodes and 88234 edges
+density=0.010819963503439287
+adamic_adar: roc_auc=0.9640711776039895, average_precision=0.9473976466847485, threshold=26.512086413228495
+jaccard: roc_auc=0.934064377195965, average_precision=0.9051775169400398, threshold=0.7667160737864487
+preferential_attachment: roc_auc=0.5837583588348635, average_precision=0.5488859065148919, threshold=32484.885376004037
